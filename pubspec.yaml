@@ -1,0 +1,50 @@
+name: justlikethis
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Dependencies for camera access
+  camera: ^0.10.0
+
+
+  image_picker: ^0.8.5+3
+
+  # For making HTTP requests to the API
+  http: ^0.13.5
+
+  # For custom fonts (e.g., Google Fonts if needed)
+  google_fonts: ^2.3.1
+
+  # The following adds the Cupertino Icons font to your application.
+  cupertino_icons: ^1.0.2
+  url_launcher: ^6.1.14
+  webview_flutter: ^4.10.0
+  camera_avfoundation: ^0.9.17+5
+  flutter_secure_storage: ^9.2.2
+
+dependency_overriders:
+  path_provider_windows: 0.0.0
+  win32: 0.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+
+
+
+
